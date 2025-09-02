@@ -1,6 +1,6 @@
 let tick = 0;
 let sec = 0;
-let speedValue = 1;
+let speedValue = 3;
 
 const card = document.getElementById("card");
 
@@ -19,7 +19,7 @@ btnMinus.addEventListener("click", speedDown);
 const btnPlus = document.getElementById("btnPlus");
 btnPlus.addEventListener("click", speedUp);
 
-
+loadImage();
 
 
 function loadImage() {
